@@ -47,7 +47,6 @@ INSERT INTO Instructor(InstructorID, FirstName, LastName, Email, Phone)
 VALUES ("0809", "Prim",  "Reyes", "Leonar@gmail.com", 0920391023);
 SELECT * FROM Instructor;
 
-INSERT INTO Enrollment(EnrollmentID, StudentID, CourseID, EnrollmentDate, Grade)
-VALUES (2024, "211001", "CIT17", "22,2023", 99);
-SELECT * FROM Enrollment;
+INSERT INTO Enrollment (EnrollmentID, StudentID, CourseID, EnrollmentDate, Grade)
+VALUES (1, 123, 456, '2023-12-31', 'A');
 
